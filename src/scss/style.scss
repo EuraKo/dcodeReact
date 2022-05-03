@@ -29,10 +29,11 @@ header{
     height: 500px;
     border:1px silid aqua;
     position: absolute;
-    top: 50%;
+    top: 150%;
     left: 50%;
     margin-top: -225px;
     margin-left: -150px;
+    transition: 1s;
 
     article{
         width: 100%;
@@ -68,6 +69,29 @@ header{
             }
         }
     }
+
+}
+.prev{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -220px;
+}
+.next{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 50%;
+    margin-right: -220px;
 }
 footer{
     font:14px/1 'arial';
